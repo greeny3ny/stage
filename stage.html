@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+	
+<body>
+	
+<script src="https://aframe.io/releases/0.3.0/aframe.min.js"></script>
+<script src="https://cdn.rawgit.com/AltspaceVR/AltspaceSDK/v2.0.2/dist/altspace.min.js"></script>
+<script src="https://cdn.rawgit.com/mrdoob/three.js/r84/build/three.min.js"></script>
+<script src="../../dist/altspace.js"></script>
+<script src="https://sdk.altvr.com/libs/altspace.js/2.4.0/altspace.min.js"></script>
+
+<!-- set up the scene -->
+<a-scene altspace='fullspace:true' sync-system='app: theater; author: greeny3ny'>
+	
+    <a-assets>
+
+		<a-asset-item id="stage" src="https://greeny3ny.github.io/models/dae/stage/stage.dae"></a-asset-item>
+		<a-asset-item id="chair" src="https://greeny3ny.github.io/models/dae/chair.dae"></a-asset-item>
+  	</a-assets>
+
+	<!-- Stage model -->
+	<a-entity n-mesh-collider="type:environment" position="0 0 0" rotation="0 0 0" scale="1 1 1" collada-model="#stage"></a-entity>
+
+	<a-box position="0 2 0" scale="1 1 1" color="tomato"></a-box>
+	<!--https://video-jukebox.firebaseapp.com/-->
+	
+
+</a-scene>
+ 
+ 
+</body>
+
+
+
+</html>
