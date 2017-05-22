@@ -16,13 +16,15 @@
     <a-assets>
 
 		<a-asset-item id="stage" src="https://greeny3ny.github.io/models/stage/stage.dae"></a-asset-item>
-		<a-asset-item id="chair" src="https://greeny3ny.github.io/models/dae/chair.dae"></a-asset-item>
+		<a-asset-item id="test" src="https://greeny3ny.github.io/models/dae/test.dae"></a-asset-item>
   	</a-assets>
 
 	<!-- Stage model -->
 	<a-entity n-mesh-collider="type:environment" position="0 0 0" rotation="0 0 0" scale="1 1 1" collada-model="#stage"></a-entity>
 
-	<a-box position="0 2 0" scale="1 1 1" color="tomato"></a-box>
+	<a-entity n-mesh-collider="type:environment" position="0 2 0" rotation="0 0 0" scale="1 1 1" collada-model="#test"></a-entity>
+	
+	<a-box position="0 1 0" scale="1 1 1" color="tomato"></a-box>
 	<!--https://video-jukebox.firebaseapp.com/-->
 	
 
