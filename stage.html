@@ -16,17 +16,11 @@
   <a-assets>
 	<a-asset-item id="stage" src="https://greeny3ny.github.io/models/stage/stage.dae"></a-asset-item>
 	<a-asset-item id="test" src="https://greeny3ny.github.io/models/dae/test/box1.dae"></a-asset-item>
-    	<img id="sky" src="sky.jpeg">
+    	<img id="sky" src="sky.jpeg"/>
   </a-assets>
 
 	<!-- Sky -->
 	<a-sky src="#sky">
-		<a-animation attribute="rotation"
-               dur="10000"
-               fill="forwards"
-               to="0 360 0"
-               repeat="indefinite"></a-animation>
-	
 	</a-sky>
 	
 	<!-- Stage model -->
@@ -34,7 +28,7 @@
 
 	<a-entity n-mesh-collider="type:environment; convex: false" position="0 2 0" rotation="0 0 0" scale="1 1 1" collada-model="#test"></a-entity>
 	
-	<a-box position="0 1 0" scale="1 1 1" color="tomato"></a-box>
+	<a-box position="0 1 0" scale="1 1 1" color="green"></a-box>
 	<!--https://video-jukebox.firebaseapp.com/-->
 	
 
