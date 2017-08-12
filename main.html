@@ -14,7 +14,7 @@
 <a-scene altspace sync-system='app: theater; author: greeny3ny'>
 	
   <a-assets>
-	<a-asset-item id="stage" src="https://cdn.rawgit.com/greeny3ny/models/40583452/dae/gameShowSet/set.dae"></a-asset-item>
+	<a-asset-item id="stage" src="https://cdn.rawgit.com/greeny3ny/models/48e2e1fc/dae/gameShowSet/set.dae"></a-asset-item>
 	<a-asset-item id="test" src="https://greeny3ny.github.io/models/dae/test/box1.dae"></a-asset-item>
     	<img id="sky" src="https://greeny3ny.io/stage/sky.jpeg">
   </a-assets>
@@ -24,8 +24,8 @@
 	<!-- Stage model -->
 	<a-entity n-mesh-collider="type:environment; convex: false" position="-30 0.5 0" rotation="0 0 0" scale="0.8 1 1.2" collada-model="#stage"></a-entity>
 
-	<a-entity n-mesh-collider="type:environment; convex: false" position="0 2 0" rotation="0 0 0" scale="1 1 1" collada-model="#test"></a-entity>
-	
+	<!--<a-entity n-mesh-collider="type:environment; convex: false" position="0 2 0" rotation="0 0 0" scale="1 1 1" collada-model="#test"></a-entity>
+	-->
 	<a-box position="0 1 0" scale="1 1 1" color="blue"></a-box>
 	
 	<a-plane n-mesh-collider="type:environment; convex: false" position="0 0 0" width="100" height="100" color="#0FC" rotation="-90 0 0"></a-plane>
