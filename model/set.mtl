@@ -1,0 +1,57 @@
+# Blender MTL File: 'set.blend'
+# Material Count: 5
+
+newmtl floor
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.583948 0.476201
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Craig\\Desktop\\potatatoes\\carpet.png
+
+newmtl seat
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.278294 0.632790
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Craig\Desktop\model\seatbake.png
+
+newmtl shoes
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.416255 0.640000 0.225757
+Ks 0.018653 0.000000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Craig\Desktop\model\statuebake.png
+
+newmtl sign
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Craig\\Desktop\\potatatoes\\sign.png
+
+newmtl walls
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.278370 0.027832
+Ks 0.500000 0.000000 0.008682
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Craig\Desktop\model\wallbake.png
